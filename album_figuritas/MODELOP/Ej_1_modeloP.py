@@ -11,15 +11,7 @@ comprar_figu(figus_total)
 
 
 
-#def comprar_figuritas(figuritas):
- #   figurita_random = random.radint(0,699)
-  #  figus[figurita_random] = 1
-  #  print(figurita_random)
-#print(comprar_figuritas)
 
-
-
-#comprar_figuritas()
 
 
 
