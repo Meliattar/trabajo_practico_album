@@ -14,11 +14,6 @@ while 0 in album:
 
 def esta_lleno(album):
     if 0 in album:
-        print("FALSE, Su album todavía no esta lleno, ¡A SEGUIR JUNTANDO!")
-        #return False
-        #print(esta_lleno)
-    else:
-        print("TRUE; Felicidades lograste llenar el album")  
-        #return True  
-        #print(esta_lleno)
-esta_lleno(album)
+        return False
+    return True  
+print(esta_lleno(album))
