@@ -1,0 +1,18 @@
+Hoja de respuestas de los Ejercicio: 
+Modelo Preliminar: 
+1) no tiene
+
+2) Si, tambien se puede hacer con un for o con un while:
+for 0 in album:
+    return false
+return true    
+
+while 0 in album:
+    return false
+return true
+
+3) no tiene
+
+4) no tiene
+
+5) En promedio para completar el album hay que comprar
