@@ -6,6 +6,8 @@ n_repeticiones = 1000
 #album = [0]*figus_total
 #print(album)
 album_6 = [0]*figus_total
+#lista = [1,2,3,4,5,6,7,8,9,10]
+
 
 def comprar_figu(figus_total):
         figurita_obtenida = random.randint(0,figus_total-1)
@@ -27,6 +29,10 @@ def cuantas_figus(figus_total):
 for ejecucion in range(n_repeticiones):
     cuantas_figus(figus_total)
   
+def funcion_promedio(album_6):
+    promedio = sum(album_6)/len(album_6) 
+    print(promedio)
 
+funcion_promedio(album_6)
 print(cuantas_figus(figus_total)) #poner texto de "Tuviste que comprar tantas figus para llenar el album"
 print(esta_lleno(album_6))

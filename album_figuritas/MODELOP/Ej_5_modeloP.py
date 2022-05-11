@@ -32,5 +32,3 @@ for ejecucion in range(n_repeticiones):
 #print(cuantas_figus(figus_total)) #poner texto de "Tuviste que comprar tantas figus para llenar el album"
 print(esta_lleno(album))
 
-#while n_repeticiones < 1001:
- #   cuantas_figus(figus_total)
