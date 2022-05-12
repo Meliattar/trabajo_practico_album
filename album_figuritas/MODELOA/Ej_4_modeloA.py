@@ -24,8 +24,8 @@ def cuantos_paquetes(figus_total, figus_paquete):
     while esta_lleno(album) == False:
         album[generar_paquete(figus_total, figus_paquete)] = 1
         paquetes += 1
-        print (album)    
-        print(esta_lleno(album))
+    print (album)    
+    print(esta_lleno(album))
     return paquetes
 print(cuantos_paquetes(figus_total, figus_paquete))
 
@@ -42,4 +42,5 @@ def funcion_4 ():
         promedio.append(cuantos_paquetes(669))
         i += 1
     print(funcion_promedio(promedio))
+    print (promedio)
 funcion_4()
