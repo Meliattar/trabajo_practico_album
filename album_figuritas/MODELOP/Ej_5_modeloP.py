@@ -20,7 +20,7 @@ def cuantas_figus(figus_total):
     while esta_lleno(album) == False:
         album[comprar_figu(figus_total)] = 1
         completas += 1
-        print(album)
+    print(album)
     print(esta_lleno(album))
     
     return completas
@@ -30,7 +30,7 @@ def funcion_promedio(lista):
     promedio = sum(lista)/len(lista) 
     print(promedio)
 
-funcion_promedio(lista)
+#funcion_promedio(lista)
 print(cuantas_figus(figus_total)) #poner texto de "Tuviste que comprar tantas figus para llenar el album"
 
 def funcion_5 ():

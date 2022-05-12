@@ -15,4 +15,9 @@ return true
 
 4) no tiene
 
-5) En promedio para completar el album hay que comprar
+5) En promedio para completar el album hay que comprar 14.879, es decir 15 paquetes.
+
+6) En promedio para completar el album hay que comprar 4731.99, es decir 4732 paquetes.
+
+------------------------------------------------------------------------------------------------
+Modelo Avanzado
