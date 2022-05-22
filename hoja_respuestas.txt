@@ -27,4 +27,4 @@ Modelo Avanzado:
 
 3) no tiene 
 
-4) 4917.74
+4)  En promedio para completar el album hay que comprar 918 paquetes.
