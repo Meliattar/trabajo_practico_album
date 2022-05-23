@@ -28,3 +28,5 @@ Modelo Avanzado:
 3) no tiene 
 
 4)  En promedio para completar el album hay que comprar 918 paquetes.
+
+5) La probabilidad de completar el album con 850 paquetes o menos es de 27%
