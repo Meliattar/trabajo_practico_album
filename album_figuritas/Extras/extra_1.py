@@ -1,5 +1,3 @@
-#(1 punto) Utilizando funciones de numpy y lo obtenido en el ´ıtem 4, estime cu´antos paquetes debe
-# comprar para tener una chance del 90% de completar el ´album.
 import numpy as np 
 import random 
 
@@ -36,27 +34,15 @@ def funcion_promedio(lista):
 
 print(cuantos_paquetes(figus_total, figus_paquete))
 
-#def funcion_4 ():
- #   promedios = []
-#    n_repeticiones = 100
-#   i=0
-#    while i < n_repeticiones:
-#        promedios.append(cuantos_paquetes(669,figus_paquete))
-#        i += 1
-#    print(funcion_promedio(promedios))
-#    print (promedios)
-#funcion_4()
-
-def funcion_4():
+def funcion_4 ():
     promedios = []
     n_repeticiones = 100
-    i = 0
+    i=0
     while i < n_repeticiones:
-        promedios.append(cuantos_paquetes(figus_total,figus_paquete))
+        promedios.append(cuantos_paquetes(669,figus_paquete))
         i += 1
-    a = np.mean(promedios)
-    print(a)
-    while a == 90 :
-        print(len(promedios))
-
+    print(funcion_promedio(promedios))
+    print (promedios)
+    paquetes_para90 = np.percentile(promedios, 90)
+    print(paquetes_para90)
 funcion_4()
