@@ -23,7 +23,7 @@ def cuantas_figus(figus_total):
         completas += 1
     return completas
 
-print(cuantas_figus(figus_total)) #poner texto de "Tuviste que comprar tantas figus para llenar el album"
+print(cuantas_figus(figus_total)) 
 print(esta_lleno(album))
 
 
